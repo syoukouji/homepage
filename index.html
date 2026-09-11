@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="ja" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>宗教法人 照光寺 | 神戸市垂水区の浄土真宗大谷派</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Zen+Maru+Gothic:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Zen Maru Gothic", sans-serif;
+        color: #332922;
+        background-color: #faf8f5;
+      }
+      .mincho-font {
+        font-family: "Shippori Mincho", serif;
+      }
+      .bg-washi {
+        background-color: #faf8f5;
+        background-image: radial-gradient(#e5dec9 0.75px, transparent 0.75px);
+        background-size: 16px 16px;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-washi text-stone-800 antialiased selection:bg-amber-700 selection:text-white"
+  >
+    <header
+      class="sticky top-0 z-50 bg-[#2C241D]/95 backdrop-blur-md text-stone-100 shadow-md border-b border-amber-900/30"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between"
+      >
+        <a href="#" class="flex items-center space-x-3">
+          <span
+            class="text-2xl font-bold tracking-widest mincho-font text-amber-200"
+            >照光寺</span
+          >
+          <span
+            class="text-xs text-stone-400 border-l border-stone-600 pl-3 hidden sm:inline-block"
+            >真宗大谷派（お東）</span
+          >
+        </a>
+        <nav
+          class="hidden md:flex space-x-8 text-sm font-medium tracking-wider"
+        >
+          <a href="#about" class="hover:text-amber-300 transition"
+            >ご挨拶・住職</a
+          >
+          <a href="#honzon" class="hover:text-amber-300 transition"
+            >御本尊 阿弥陀如来</a
+          >
+          <a href="#funeral" class="hover:text-amber-300 transition"
+            >葬儀・法要のご案内</a
+          >
+          <a href="#access" class="hover:text-amber-300 transition"
+            >アクセス・お問合せ</a
+          >
+        </nav>
+        <div class="md:hidden">
+          <button
+            id="menu-btn"
+            class="text-stone-300 hover:text-white focus:outline-none p-2"
+          >
+            <i class="fa-solid fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-[#2C241D] border-t border-stone-700 px-4 pt-2 pb-4 space-y-2"
+      >
+        <a href="#about" class="block py-2 text-stone-300 hover:text-amber-300"
+          >ご挨拶・住職</a
+        >
+        <a href="#honzon" class="block py-2 text-stone-300 hover:text-amber-300"
+          >御本尊 阿弥陀如来</a
+        >
+        <a
+          href="#funeral"
+          class="block py-2 text-stone-300 hover:text-amber-300"
+          >葬儀・法要のご案内</a
+        >
+        <a href="#access" class="block py-2 text-stone-300 hover:text-amber-300"
+          >アクセス・お問合せ</a
+        >
+      </div>
+    </header>
+
+    <section
+      class="relative bg-[#2C241D] text-stone-100 overflow-hidden py-16 lg:py-36"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+      >
+        <div class="space-y-6 text-center lg:text-left">
+          <span
+            class="inline-block bg-amber-900/50 border border-amber-600/40 text-amber-200 text-xs tracking-widest px-4 py-1.5 rounded-full"
+          >
+            真宗大谷派 宗教法人 照光寺
+          </span>
+          <h1
+            class="text-4xl sm:text-5xl lg:text-6xl font-bold mincho-font tracking-widest leading-tight text-amber-50"
+          >
+            心に寄り添う<br />あたたかなお寺
+          </h1>
+          <p class="text-stone-300 text-base sm:text-lg leading-relaxed">
+            真宗大谷派でのご葬式でよろしければ、どのような方でもご葬儀させていただきます。<br />
+            どうぞお気軽にご相談ください。
+          </p>
+          <div
+            class="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+          >
+            <a
+              href="#access"
+              class="bg-amber-700 hover:bg-amber-800 text-stone-100 font-medium px-8 py-3.5 rounded shadow transition text-center tracking-wider"
+            >
+              <i class="fa-solid fa-phone mr-2"></i> お問い合わせ
+            </a>
+            <a
+              href="#funeral"
+              class="bg-stone-800 hover:bg-stone-700 border border-stone-600 text-stone-200 font-medium px-8 py-3.5 rounded transition text-center tracking-wider"
+            >
+              葬儀・法要の費用案内
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 items-center"
+        >
+          <div class="space-y-4">
+            <div
+              class="bg-stone-800 p-2.5 rounded-lg shadow-md border border-stone-700"
+            >
+              <img
+                src="img/305.jpg"
+                alt="本堂の様子"
+                class="rounded w-full h-auto max-h-[320px] object-contain mx-auto bg-stone-900"
+              />
+              <p class="text-xs text-stone-400 mt-2 text-center mincho-font">
+                本堂内観
+              </p>
+            </div>
+          </div>
+          <div class="space-y-4 lg:pt-8">
+            <div
+              class="bg-stone-800 p-2.5 rounded-lg shadow-md border border-stone-700"
+            >
+              <img
+                src="img/203.jpg"
+                alt="阿弥陀如来像"
+                class="rounded w-full h-auto max-h-[320px] object-contain mx-auto bg-stone-900"
+              />
+              <p class="text-xs text-stone-400 mt-2 text-center mincho-font">
+                寺号標・入口（外観）
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-24">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span
+            class="text-amber-800 text-xs font-bold tracking-widest uppercase"
+            >Priest & History</span
+          >
+          <h2
+            class="text-3xl sm:text-4xl font-bold mincho-font mt-2 text-stone-900 tracking-wider"
+          >
+            住職紹介とあゆみ
+          </h2>
+          <div class="w-12 h-0.5 bg-amber-800 mx-auto mt-4"></div>
+        </div>
+
+        <div
+          class="bg-white p-8 sm:p-12 rounded-lg shadow-sm border border-stone-200 grid grid-cols-1 lg:grid-cols-3 gap-10 items-center"
+        >
+          <div class="text-center">
+            <img
+              src="img/101.jpg"
+              alt="片山 利治 住職"
+              class="w-44 h-44 object-cover rounded-full mx-auto shadow border-4 border-amber-50"
+            />
+            <div class="mt-4">
+              <p class="text-xs text-stone-500">かたやま としはる</p>
+              <h3 class="text-2xl font-bold mincho-font text-stone-900 mt-1">
+                片山 利治
+              </h3>
+              <p class="text-sm text-amber-800 font-medium mt-1">住職</p>
+            </div>
+          </div>
+          <div
+            class="lg:col-span-2 space-y-4 text-stone-700 leading-relaxed border-t lg:border-t-0 lg:border-l border-stone-200 pt-6 lg:pt-0 lg:pl-8 text-sm sm:text-base"
+          >
+            <div class="flex flex-wrap gap-2 text-xs text-stone-600 pb-2">
+              <span class="bg-amber-50 text-amber-900 px-3 py-1 rounded"
+                >真宗大谷派教師</span
+              >
+              <span class="bg-stone-100 px-3 py-1 rounded">1976年生まれ</span>
+              <span class="bg-stone-100 px-3 py-1 rounded">淡路島出身</span>
+              <span class="bg-stone-100 px-3 py-1 rounded"
+                >兵庫県立洲本高等学校卒業</span
+              >
+            </div>
+            <p>
+              実家はお寺ではないのですが、思うところがあり大谷大学文学部仏教学科に進学、在学中に19歳で得度。平成18年より現在の活動を始め、平成26年10月にお寺が完成しました。
+            </p>
+            <p>
+              浄土真宗の葬儀・法要は阿弥陀如来の慈悲を仰ぎ、阿弥陀如来の本願力によってふたび浄土で会えるという思いを確かめ合う場と考えています。どなたでもお気軽にご相談ください。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="honzon" class="py-24 bg-[#2C241D] text-stone-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span
+            class="text-amber-400 text-xs font-bold tracking-widest uppercase"
+            >Sacred Image</span
+          >
+          <h2
+            class="text-3xl sm:text-4xl font-bold mincho-font mt-2 tracking-wider"
+          >
+            御本尊 阿弥陀如来
+          </h2>
+          <div class="w-12 h-0.5 bg-amber-500 mx-auto mt-4"></div>
+          <p class="text-stone-300 mt-4 text-sm">京仏師 冨田 珠雲 作</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div
+            class="bg-stone-800 p-3 rounded border border-stone-700 shadow-lg"
+          >
+            <img
+              src="img/310.jpg"
+              alt="阿弥陀如来像"
+              class="rounded w-full h-auto max-h-[460px] object-contain mx-auto bg-stone-900"
+            />
+          </div>
+          <div
+            class="space-y-6 text-stone-300 leading-relaxed text-sm sm:text-base"
+          >
+            <p>
+              照光寺様のご本尊は東本願寺様式の衣の着衣、お姿も正式に両足を揃えて真っ直ぐにお立ちになっている阿弥陀如来像です。
+            </p>
+            <p>
+              樹齢三百年以上の木曽松を使用してご縁のある方に鑿（のみ）入れをして頂き、胎内にはその時の署名の巻紙が入っております。
+            </p>
+            <p>
+              御台座は東本願寺様の六角蒼き蓮華七重座で、木地の上に本漆を塗り、金箔を押してあります。
+            </p>
+            <div
+              class="p-4 bg-stone-900/70 border-l-2 border-amber-500 rounded-r text-stone-200"
+            >
+              <p class="text-sm italic">
+                「全ての行程を京都で丹念に仕上げた御本尊、住職の思い、門徒の協力をもって千年維持して頂きますと、必ず国の宝となる事でしょう。」
+              </p>
+              <p class="text-xs text-right mt-2 text-amber-400">
+                — 京仏師 冨田 珠雲
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="funeral" class="py-24">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span
+            class="text-amber-800 text-xs font-bold tracking-widest uppercase"
+            >Services & Pricing</span
+          >
+          <h2
+            class="text-3xl sm:text-4xl font-bold mincho-font mt-2 text-stone-900 tracking-wider"
+          >
+            葬儀・法要について
+          </h2>
+          <div class="w-12 h-0.5 bg-amber-800 mx-auto mt-4"></div>
+          <!-- 変更点: 四角の囲いをなくし、左寄せのテキスト配置に変更 -->
+          <div
+            class="mt-6 text-stone-700 text-sm sm:text-base leading-relaxed text-left max-w-2xl mx-auto px-2"
+          >
+            <p class="mb-2">
+              家の菩提寺がわからない方や、お寺へのお礼を安く済ませたい方などを対象にご葬儀でのお勤めをさせていただいております。どなたでもお気軽にご相談ください。
+            </p>
+            <p>内容にご予算に応じて組み合わせることができます。</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <div class="bg-white p-8 rounded shadow-sm border border-stone-200">
+            <h3
+              class="text-lg font-bold mincho-font text-stone-900 mb-6 flex items-center border-b pb-3 border-stone-100"
+            >
+              <i class="fa-solid fa-scroll text-amber-800 mr-2"></i>
+              主な内容（葬儀式料・法事）
+            </h3>
+            <div class="space-y-5 text-sm">
+              <div class="border-b border-stone-100 pb-3">
+                <div class="font-bold text-stone-900">枕勤め（枕経）</div>
+                <div class="text-stone-600 text-xs mt-1">
+                  帰敬式 / 仏説阿弥陀経
+                </div>
+              </div>
+              <div class="border-b border-stone-100 pb-3">
+                <div class="font-bold text-stone-900">
+                  お通夜 / 初七日法要（還骨勤行） / 四十九日法要
+                </div>
+                <div class="text-stone-600 text-xs mt-1">
+                  仏説阿弥陀経、正信偈、念仏和讃
+                </div>
+                <p class="text-[11px] text-amber-800 mt-1">
+                  ※初七日法要と還骨勤行を一緒に行う場合は「白骨の御文」を最後に加えます。
+                </p>
+              </div>
+              <div class="border-b border-stone-100 pb-3">
+                <div class="font-bold text-stone-900">葬儀式</div>
+                <div class="text-stone-600 text-xs mt-1">
+                  帰敬式 / 伽陀 / 勧乗偈 / 路念仏 / 表白 / 正信偈 / 和讃
+                </div>
+                <p class="text-[11px] text-stone-500 mt-1">
+                  ※読経時間 約35分 ／
+                  会葬者の焼香が多い場合はその間「念仏」となります。
+                </p>
+              </div>
+              <div class="border-b border-stone-100 pb-3">
+                <div class="font-bold text-stone-900">簡略葬儀式</div>
+                <div class="text-stone-600 text-xs mt-1">
+                  帰敬式 / 路念仏 / 表白 / 正信偈 / 和讃（読経時間 約35分）
+                </div>
+              </div>
+              <div>
+                <div class="font-bold text-stone-900">略式葬儀式</div>
+                <div class="text-stone-600 text-xs mt-1">
+                  帰敬式 / 路念仏 / 三誓偈（読経時間 約13分）
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-8 rounded shadow-sm border border-stone-200">
+            <h3
+              class="text-lg font-bold mincho-font text-stone-900 mb-6 flex items-center border-b pb-3 border-stone-100"
+            >
+              <i class="fa-solid fa-yen-sign text-amber-800 mr-2"></i>
+              志（お布施等）の目安
+            </h3>
+            <div class="space-y-3.5 text-sm">
+              <div
+                class="flex justify-between items-center border-b border-stone-100 pb-2"
+              >
+                <span class="text-stone-800">法名</span>
+                <span class="font-bold text-amber-900">1万〜</span>
+              </div>
+              <div
+                class="flex justify-between items-center border-b border-stone-100 pb-2"
+              >
+                <span class="text-stone-800">院号</span>
+                <span class="font-bold text-amber-900">8万〜</span>
+              </div>
+              <div
+                class="flex justify-between items-center border-b border-stone-100 pb-2"
+              >
+                <span class="text-stone-800">枕勤め（枕経）</span>
+                <span class="font-bold text-amber-900">1万〜</span>
+              </div>
+              <div
+                class="flex justify-between items-center border-b border-stone-100 pb-2"
+              >
+                <span class="text-stone-800">お通夜</span>
+                <span class="font-bold text-amber-900">1万〜</span>
+              </div>
+              <div
+                class="flex justify-between items-center border-b border-stone-100 pb-2"
+              >
+                <span class="text-stone-800">初七日法要</span>
+                <span class="font-bold text-amber-900">1万〜</span>
+              </div>
+              <div
+                class="flex justify-between items-center border-b border-stone-100 pb-2"
+              >
+                <span class="text-stone-800">四十九日法要</span>
+                <span class="font-bold text-amber-900">1万〜</span>
+              </div>
+              <div
+                class="flex justify-between items-center border-b border-stone-100 pb-2"
+              >
+                <span class="text-stone-800"
+                  >葬儀式（葬場・野辺送り等まで）</span
+                >
+                <span class="font-bold text-amber-900">5万〜</span>
+              </div>
+              <div
+                class="flex justify-between items-center border-b border-stone-100 pb-2"
+              >
+                <span class="text-stone-800">簡略葬儀式</span>
+                <span class="font-bold text-amber-900">3万〜</span>
+              </div>
+              <div
+                class="flex justify-between items-center border-b border-stone-100 pb-2"
+              >
+                <span class="text-stone-800">略式葬儀式</span>
+                <span class="font-bold text-amber-900">1万〜</span>
+              </div>
+              <div
+                class="flex justify-between items-center border-b border-stone-100 pb-2"
+              >
+                <span class="text-stone-800">野辺送り（斎場での読経）</span>
+                <span class="font-bold text-amber-900">5千〜</span>
+              </div>
+              <div class="flex justify-between items-center pb-2">
+                <span class="text-stone-800"
+                  >永代経
+                  <span class="text-[11px] text-stone-500 block"
+                    >※事務所を通じ本山へお世話いたします</span
+                  ></span
+                >
+                <span class="font-bold text-amber-900">3万〜</span>
+              </div>
+            </div>
+            <p
+              class="text-xs text-stone-500 mt-6 bg-stone-50 p-3 rounded border border-stone-200 leading-relaxed"
+            >
+              ※参加僧侶が必要な場合は加えることができます。（通常は全て1名で行います）<br />
+              ※参勤僧侶追加などの場合によって金額が異なる場合があります。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="access" class="py-24 bg-[#2C241D] text-stone-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span
+            class="text-amber-400 text-xs font-bold tracking-widest uppercase"
+            >Access & Contact</span
+          >
+          <h2
+            class="text-3xl sm:text-4xl font-bold mincho-font mt-2 tracking-wider"
+          >
+            アクセス・お問合せ
+          </h2>
+          <div class="w-12 h-0.5 bg-amber-500 mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <div
+            class="bg-stone-800 p-8 rounded border border-stone-700 shadow space-y-6"
+          >
+            <h3 class="text-lg font-bold mincho-font text-amber-300">
+              交通のご案内
+            </h3>
+            <div class="space-y-4 text-sm text-stone-300">
+              <div class="flex items-start space-x-3">
+                <i class="fa-solid fa-car text-amber-400 mt-1"></i>
+                <div>
+                  <span class="font-bold text-white block"
+                    >お車でお越しの場合</span
+                  >
+                  名谷インター出口より東へ1.2km、下畑交差点を塩屋方面へ500m、下代公園を東へ。
+                </div>
+              </div>
+              <div class="flex items-start space-x-3">
+                <i class="fa-solid fa-train text-amber-400 mt-1"></i>
+                <div>
+                  <span class="font-bold text-white block"
+                    >電車でお越しの場合</span
+                  >
+                  JR・山陽塩屋駅からタクシーで約5分
+                </div>
+              </div>
+            </div>
+            <div class="pt-4 border-t border-stone-700">
+              <div
+                class="bg-stone-900 p-4 rounded text-xs text-stone-300 space-y-1"
+              >
+                <p class="text-amber-300 font-bold mincho-font">所在地</p>
+                <p>〒655-0861 神戸市垂水区下畑町字柏谷262-4</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-stone-800 p-8 rounded border border-stone-700 shadow flex flex-col justify-between"
+          >
+            <div>
+              <h3 class="text-lg font-bold mincho-font text-amber-300 mb-6">
+                お問い合わせ・連絡先
+              </h3>
+              <p class="text-stone-300 text-sm mb-6">
+                お気軽にご相談ください。法要やご葬儀のことなど、いつでも丁寧に対応いたします。
+              </p>
+              <div class="space-y-4 text-stone-200">
+                <div
+                  class="flex items-center space-x-4 bg-stone-900/60 p-4 rounded border border-stone-700/50"
+                >
+                  <i
+                    class="fa-solid fa-phone-volume text-amber-400 text-xl w-8 text-center"
+                  ></i>
+                  <div>
+                    <span class="text-xs text-stone-400 block">電話番号</span>
+                    <span class="text-base sm:text-lg font-bold tracking-wider"
+                      >078-754-7583</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="flex items-center space-x-4 bg-stone-900/60 p-4 rounded border border-stone-700/50"
+                >
+                  <i
+                    class="fa-solid fa-fax text-amber-400 text-xl w-8 text-center"
+                  ></i>
+                  <div>
+                    <span class="text-xs text-stone-400 block">FAX番号</span>
+                    <span class="text-base sm:text-lg font-bold tracking-wider"
+                      >078-754-7584</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="flex items-center space-x-4 bg-stone-900/60 p-4 rounded border border-stone-700/50"
+                >
+                  <i
+                    class="fa-solid fa-mobile-screen-button text-amber-400 text-xl w-8 text-center"
+                  ></i>
+                  <div>
+                    <span class="text-xs text-stone-400 block">携帯電話</span>
+                    <span class="text-base sm:text-lg font-bold tracking-wider"
+                      >090-8538-7179</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="bg-[#1E1813] text-stone-400 py-12 border-t border-stone-800 text-center text-xs"
+    >
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-3">
+        <p class="text-lg font-bold mincho-font text-stone-200 tracking-wider">
+          宗教法人 照光寺
+        </p>
+        <p>〒655-0861 神戸市垂水区下畑町字柏谷262-4</p>
+        <p class="text-stone-600 pt-4">
+          &copy; Shoko-ji Temple All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
