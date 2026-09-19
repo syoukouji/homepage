@@ -83,18 +83,24 @@
         id="mobile-menu"
         class="hidden md:hidden bg-[#2C241D] border-t border-stone-700 px-4 pt-2 pb-4 space-y-2"
       >
-        <a href="#about" class="block py-2 text-stone-300 hover:text-amber-300"
+        <a
+          href="#about"
+          class="mobile-link block py-2 text-stone-300 hover:text-amber-300"
           >ご挨拶・住職</a
         >
-        <a href="#honzon" class="block py-2 text-stone-300 hover:text-amber-300"
+        <a
+          href="#honzon"
+          class="mobile-link block py-2 text-stone-300 hover:text-amber-300"
           >御本尊 阿弥陀如来</a
         >
         <a
           href="#funeral"
-          class="block py-2 text-stone-300 hover:text-amber-300"
+          class="mobile-link block py-2 text-stone-300 hover:text-amber-300"
           >葬儀・法要のご案内</a
         >
-        <a href="#access" class="block py-2 text-stone-300 hover:text-amber-300"
+        <a
+          href="#access"
+          class="mobile-link block py-2 text-stone-300 hover:text-amber-300"
           >アクセス・お問合せ</a
         >
       </div>
@@ -350,10 +356,9 @@
             <h3
               class="text-lg font-bold mincho-font text-stone-900 border-b border-amber-100 pb-2"
             >
-              お布施について
+              お布施はいくらですか？
             </h3>
             <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
-              お布施はいくらですか?
               お気持ちで結構ですと申し上げたいところですが、電話もしくはメール(7676amitabha@gmail.com)ショートメール(携帯電話090-8538-7179)にてお尋ねください。目安の金額をお伝えします。物価高の時代、無理のないようにお願いします。
             </p>
           </div>
@@ -390,7 +395,7 @@
                   <span class="font-bold text-white block"
                     >お車でお越しの場合</span
                   >
-                  グーグルマップをご覧下さい。照光寺で検索。わかりにくいところございますので、近くまで来られたらご連絡ください。お迎えに行きますので道案内いたします。
+                  グーグルマップをご覧下さい。照光寺で検索。わかりにくいところでございますので、近くまで来られたらご連絡ください。お迎えに行きますので道案内いたします。
                 </div>
               </div>
               <div class="flex items-start space-x-3">
@@ -421,7 +426,7 @@
                 お問い合わせ·連絡先
               </h3>
               <p class="text-stone-300 text-sm mb-6">
-                お気軽にご相談ください。法要やご葬儀のことなど、いつでも丁寧に対応いたします。
+                仏事のことなど、お気軽にご相談ください。
               </p>
               <div class="space-y-4 text-stone-200">
                 <div
@@ -490,9 +495,17 @@
     <script>
       const menuBtn = document.getElementById("menu-btn");
       const mobileMenu = document.getElementById("mobile-menu");
+      const mobileLinks = document.querySelectorAll(".mobile-link");
 
       menuBtn.addEventListener("click", () => {
         mobileMenu.classList.toggle("hidden");
+      });
+
+      // スマホ表示のハンバーガーメニューを選択後はメニューを隠す
+      mobileLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.add("hidden");
+        });
       });
     </script>
   </body>
