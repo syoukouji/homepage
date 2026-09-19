@@ -3,7 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>宗教法人 照光寺 | 神戸市垂水区の浄土真宗大谷派</title>
+    <title>
+      宗教法人 照光寺 | 神戸市垂水区の浄土真宗大谷派・あたたかなお寺
+    </title>
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="真宗大谷派での聲明(しょうみょう)儀式作法でよろしければ、どのような方でも、お参りさせていただいております。葬儀のみ、初七日または満中陰法要(四十九日)までのお付き合いも可能です。皆さまの必要な時にお参りしております。また、照光寺では、入るのも出るのも自由です。年会費·寄付金をお願いすることはございません。"
+    />
+    <meta
+      name="keywords"
+      content="照光寺, 浄土真宗大谷派, 神戸市, 垂水区, 寺院, 葬儀, 法要, お布施, 片山利治"
+    />
+
+    <!-- OGP / Social Sharing -->
+    <meta
+      property="og:title"
+      content="宗教法人 照光寺 | 神戸市垂水区の浄土真宗大谷派"
+    />
+    <meta
+      property="og:description"
+      content="心に寄り添うあたたかなお寺。真宗大谷派の儀式作法でお参りを受け付けております。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- Structured Data (JSON-LD for LocalBusiness / BuddhistTemple) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BuddhistTemple",
+        "name": "宗教法人 照光寺",
+        "description": "神戸市垂水区にある浄土真宗大谷派のお寺。心に寄り添うあたたかなお寺として、葬儀や法要を受付しています。",
+        "address": {
+          "@type": "PostalAddress",
+          "postalCode": "655-0861",
+          "addressRegion": "兵庫県",
+          "addressLocality": "神戸市垂水区",
+          "streetAddress": "下畑町字栢谷262-4"
+        },
+        "telephone": "090-8538-7179",
+        "email": "7676amitabha@gmail.com",
+        "founder": {
+          "@type": "Person",
+          "name": "片山利治"
+        }
+      }
+    </script>
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Google Fonts -->
@@ -275,7 +322,7 @@
             </p>
             <p>
               樹齢三百年以上の木曽桧を使用してご縁のある方に鑿 (のみ)
-              入れをして頂き、胎内にはその時の署名の巻紙が入っております。
+              入れを頂き、胎内にはその時の署名の巻紙が入っております。
             </p>
             <p>
               如来の特徴を表す三十二相も表現できる手の水かき、頭の青色、青い瞳など仏師が表現できる限り表してあります。御台座は東本願寺様式の六角葺き蓮華七重座で、木地の上に本漆を塗り、金箔を押してあります。葺き蓮華は岩絵具を使用して截金を施した台座になっております。
@@ -501,7 +548,8 @@
         mobileMenu.classList.toggle("hidden");
       });
 
-      // スマホ表示のハンバーガーメニューを選択後はメニューを隠す
+      // スマホ表示のハンバーガーメニューを選択後はメニューを元にもどしてください。
+      // それ以外は変更しないようにお願いします。
       mobileLinks.forEach((link) => {
         link.addEventListener("click", () => {
           mobileMenu.classList.add("hidden");
